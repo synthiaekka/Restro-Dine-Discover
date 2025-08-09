@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="Admin.css">
+    <script src="Admin.js"></script>
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                    <h2>Restaurant<span class="danger">Book</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+            <a href="Admin.html"> <!-- Update the href attribute -->
+                <span class="material-icons-sharp">
+                    dashboard
+                </span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="Restaurant.html"> <!-- Update the href attribute -->
+                <span class="material-icons-sharp">
+                    restaurant
+                </span>
+                <h3>Restaurants</h3>
+            </a>
+            <a href="booking.html"> <!-- Update the href attribute -->
+                <span class="material-icons-sharp">
+                    receipt_long
+                </span>
+                <h3>Bookings</h3>
+            </a>
+                <!-- Add more sidebar items as needed -->
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+           
+
+            <!-- Restaurant Overview Section -->
+            <div class="restaurant-overview">
+                <h2>Restaurant Overview</h2>
+                <div class="restaurant-list">
+                    <div class="restaurant">
+                        <img src="./image/photo-1517248135467-4c7edcad34c4.avif">
+                        <h2>Epicurean Delight</h2>
+                        <p>Location: Mumbai</p>
+                        <!-- Add more restaurant details as needed -->
+                    </div>
+                    <div class="restaurant">
+                        <img src="./image/restaurant-1284351_1280.jpg">
+                        <h2>Culinary Comfort</h2>
+                        <p>Location: Bangalore</p>
+                        <!-- Add more restaurant details as needed -->
+                    </div>
+                    <!-- Add more restaurant entries as needed -->
+                </div>
+            </div>
+            <!-- End of Restaurant Overview Section -->
+
+            <!-- Booking Statistics -->
+            <div class="booking-statistics">
+                <h2>Booking Statistics</h2>
+                <div class="stats">
+                    <div class="booking-stat">
+                        <h3>Total Bookings</h3>
+                        <p>2,347</p>
+                    </div>
+                    <div class="booking-stat">
+                        <h3>Upcoming Bookings</h3>
+                        <p>678</p>
+                    </div>
+                    <!-- Add more booking statistics as needed -->
+                </div>
+            </div>
+            <!-- End of Booking Statistics -->
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Admin</b></p>
+                        <small class="text-muted">Restaurant Admin</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more right-section content as needed -->
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    background: url("./abstract-white-bokeh-glowing-lights-background_1017-24049.avif");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.restaurant {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.restaurant p {
+    color: #777;
+}
+
+.restaurant button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.restaurant button:hover {
+    background-color: #555;
+}
+
+.status {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.active {
+    color: green;
+    background-color: #c1f2c1;
+}
+
+.inactive {
+    color: red;
+    background-color: #f2c1c1;
+}
+
+#go-to-dashboard-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(164, 164, 164);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#go-to-dashboard-button:hover {
+    background-color: rgb(147, 147, 147);
+}
+

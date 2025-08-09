@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <link rel="stylesheet" type="text/css" href="Booking.css">
+   
+    
+</head>
+
+<body>
+    <header>
+        <h1>Bookings</h1>
+    </header>
+
+    <section id="booking-list">
+        <!-- Display the list of bookings with the option to cancel -->
+        <div class="booking">
+            <h2>Booking ID: 1</h2>
+            <p>Customer: John Doe</p>
+            <p>Restaurant: Restaurant A</p>
+            <p>Date/Time: 2023-01-01 18:00</p>
+            <p>Status: Confirmed</p>
+            <button class="cancel-btn"onclick="cancelBooking(1)">Cancel Booking</button>
+        </div>
+
+        <div class="booking">
+            <h2>Booking ID: 2</h2>
+            <p>Customer: Jane Smith</p>
+            <p>Restaurant: Restaurant B</p>
+            <p>Date/Time: 2023-01-02 20:00</p>
+            <p>Status: Pending</p>
+            <button class="cancel-btn" onclick="cancelBooking(2)">Cancel Booking</button>
+    
+        </div>
+
+
+        <button class="admin-btn" onclick="goToAdminDashboard()">Go to Admin Dashboard</button>
+    
+    </section>
+    <script>
+        // Function to go to Management Table
+        function goToAdminDashboard() {
+            window.location.href = "Admin.html"; // Adjust the path accordingly
+        }
+         // Function to cancel a booking (simulate action)
+         function cancelBooking(bookingId) {
+            // In a real-world scenario, you would likely send a request to the server
+            // to update the booking status to "Cancelled." This is a placeholder.
+            alert('Booking ' + bookingId + ' has been cancelled.');
+        }
+        
+        // Function to go back to the previous page (you can use this function for the "Go Back" button as well)
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    </body>
+    </html>

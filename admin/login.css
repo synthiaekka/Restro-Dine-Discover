@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e0e0;
+    background: url("./abstract-white-bokeh-glowing-lights-background_1017-24049.avif");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  form {
+    
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: rgb(23, 23, 228);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+

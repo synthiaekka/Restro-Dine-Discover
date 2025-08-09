@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("./image/blur-1851557_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    box-sizing: border-box; /* Consolidated style */
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black; /* Consolidated style */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black; /* Consolidated style */
+}
+
+.floor-plan {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(189, 187, 187); /* Consolidated style */
+    box-shadow: black solid;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.table:hover {
+    background-color:white;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+}
+
+
+
+
+  
+
+  
+
+  
+
+

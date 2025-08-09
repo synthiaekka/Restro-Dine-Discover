@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants</title>
+    <link rel="stylesheet" type="text/css" href="restaurant.css">
+  
+</head>
+
+<body>
+    <header>
+        <h1>Restaurants</h1>
+    </header>
+
+    <section id="restaurant-list">
+        <!-- Display the list of restaurants with the option to update status -->
+        <div class="restaurant">
+            <h2>Epicurean Delight</h2>
+            <p>Status: <span class="status active">Active</span></p>
+            <button onclick="updateStatus('restaurant-a')">Update Status</button>
+        </div>
+
+        <div class="restaurant">
+            <h2>Culinary Comfort</h2>
+            <p>Status: <span class="status inactive">Inactive</span></p>
+            <button onclick="updateStatus('restaurant-b')">Update Status</button>
+        
+        </div>
+    </section>
+    <button id="go-to-dashboard-button" onclick="goToAdminDashboard()">Back to Dashboard</button>
+    <script>
+        function updateStatus(restaurantId) {
+            console.log(`Updating status for ${restaurantId}`);
+            const restaurantElement = document.getElementById(restaurantId);
+            const statusElement = restaurantElement.querySelector('.status');
+
+            // Toggle between active and inactive
+            if (statusElement.classList.contains('active')) {
+                statusElement.classList.remove('active');
+                statusElement.classList.add('inactive');
+                statusElement.textContent = 'Inactive';
+            } else {
+                statusElement.classList.remove('inactive');
+                statusElement.classList.add('active');
+                statusElement.textContent = 'Active';
+            }
+        }
+
+    
+        function goToAdminDashboard() {
+            console.log(window.location.href="Admin.html");
+          
+        }
+        </script>
+
+   
+</body>
+
+</html>
